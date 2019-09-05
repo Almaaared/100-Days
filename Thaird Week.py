@@ -3,4 +3,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> number = [1,2,3,4]
 >>> print (number)
 [1, 2, 3, 4]
+>>> thislist =['apple','banana','cherry']
+>>> print(thislist)
+['apple', 'banana', 'cherry']
 >>> 
