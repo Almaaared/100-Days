@@ -6,4 +6,11 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> thislist =['apple','banana','cherry']
 >>> print(thislist)
 ['apple', 'banana', 'cherry']
+>>> list=['Apple','Banana','Cherry']
+>>> print (list[2])
+Cherry
+>>> my_list = ['apple','banana','cherry']
+>>> my_list[0]='blackcurrant'
+>>> print(my_list)
+['blackcurrant', 'banana', 'cherry']
 >>> 
