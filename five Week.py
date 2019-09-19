@@ -55,6 +55,7 @@ while i < 6:
         break
     i+= 1
 """
+"""
 i = 0
 while i < 6:
 
@@ -62,3 +63,28 @@ while i < 6:
     if i ==3:
         continue
     print(i)
+"""
+"""
+i = 1
+while i < 10:
+    print(i)
+    i += 1
+else:
+    print('i is no longer less than 10')
+"""
+"""
+fruits = ['apple','banana','cherry']
+for x in fruits:
+    print(x)
+"""
+'''
+fruoits =['apple','banana','cherry']
+for x in fruoits:
+    print(x)
+    if x == "apple":
+        break'''
+fruoits =['apple','banana','cherry']
+for x in fruoits:
+    if x == "banana":
+        continue
+    print(x)
