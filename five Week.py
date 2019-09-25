@@ -83,8 +83,63 @@ for x in fruoits:
     print(x)
     if x == "apple":
         break'''
+
+"""
 fruoits =['apple','banana','cherry']
 for x in fruoits:
     if x == "banana":
         continue
     print(x)
+"""
+"""
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+else :
+    print("i is no longer less than 6")
+    """
+"""
+for x in range(2,6):
+    print(x)
+    """
+"""
+for x in range (6):
+    print(x)
+else:
+    print('Finally')
+"""
+'''
+adj = ["red","big","tasty"]
+fruits =['apple','banana','cherry']
+for x in adj:
+    for y in fruits:
+        print(x,y)
+   '''
+"""
+def My_function():
+
+    print('Hello from a function')
+My_function()
+"""
+"""
+def my_function(fname):
+    print(fname + ' Refsnes')
+
+my_function("Email")
+
+my_function("Tobias")
+
+my_function('Linus')
+"""
+"""
+def my_function(country = "KSA"):
+    print("iam from " +country)
+my_function("Bhrain")
+my_function("UAE")
+my_function()
+"""
+
+for A in range(3,17) :
+    for B in range(2,16):
+        print(A,B)
