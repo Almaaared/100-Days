@@ -139,7 +139,38 @@ my_function("Bhrain")
 my_function("UAE")
 my_function()
 """
-
+"""
 for A in range(3,17) :
     for B in range(2,16):
         print(A,B)
+"""
+''' week 6th '''
+'''
+def my_function (food):
+    for x in food:
+        print(x)
+
+fruits =['apple','banana','cherry']
+my_function(fruits)
+'''
+"""
+def my_function(x):
+    return 5 * x
+
+print(my_function(5))
+print(my_function(3))
+"""
+"""
+def my_function(*kids):
+    print('The yougest child is ' + kids[2])
+my_function('Emil','Tobias','Mishary')
+"""
+def tri_recursion(k):
+    if (k>0):
+        result = k+tri_recursion(k-1)
+        print(result)
+    else:
+        result = 0
+    return result
+print('\n\n Recursion Example Results')
+tri_recursion(6)
