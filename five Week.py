@@ -165,6 +165,7 @@ def my_function(*kids):
     print('The yougest child is ' + kids[2])
 my_function('Emil','Tobias','Mishary')
 """
+'''
 def tri_recursion(k):
     if (k>0):
         result = k+tri_recursion(k-1)
@@ -174,3 +175,4 @@ def tri_recursion(k):
     return result
 print('\n\n Recursion Example Results')
 tri_recursion(6)
+'''
